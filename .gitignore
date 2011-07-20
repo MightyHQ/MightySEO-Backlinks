@@ -1,0 +1,5 @@
+*.swp
+/{{$dist->name}}*
+.build
+MightySEO-Backlinks
+properties.conf
