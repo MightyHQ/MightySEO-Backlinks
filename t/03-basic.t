@@ -1,4 +1,5 @@
 use Test::More;
+use FindBin::libs;
 
 use MightySEO::Backlinks;
 
