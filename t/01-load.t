@@ -1,4 +1,4 @@
-use Test::More tests => 10;
+use Test::More tests => 12;
 use FindBin::libs;
 
 BEGIN { use_ok( 'MightySEO::Backlinks' ); }
@@ -15,3 +15,6 @@ require_ok( 'MightySEO::Backlinks::SEOmoz' );
 
 BEGIN { use_ok( 'MightySEO::Backlinks::StumbleUpon' ); }
 require_ok( 'MightySEO::Backlinks::StumbleUpon' );
+
+BEGIN { use_ok( 'MightySEO::Backlinks::TweetMeme' ); }
+require_ok( 'MightySEO::Backlinks::TweetMeme' );
