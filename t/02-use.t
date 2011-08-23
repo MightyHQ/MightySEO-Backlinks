@@ -13,17 +13,17 @@ my $delicious = MightySEO::Backlinks::Delicious->new;
 isa_ok( $delicious, 'MightySEO::Backlinks::Delicious' );
 can_ok( $delicious, @SUBS );
 
-my $delicious = MightySEO::Backlinks::Facebook->new;
-isa_ok( $delicious, 'MightySEO::Backlinks::Facebook' );
-can_ok( $delicious, @SUBS );
+my $facebook = MightySEO::Backlinks::Facebook->new;
+isa_ok( $facebook , 'MightySEO::Backlinks::Facebook' );
+can_ok( $facebook , @SUBS );
 
-my $delicious = MightySEO::Backlinks::SEOmoz->new;
-isa_ok( $delicious, 'MightySEO::Backlinks::SEOmoz' );
-can_ok( $delicious, @SUBS );
+my $seomoz = MightySEO::Backlinks::SEOmoz->new;
+isa_ok( $seomoz , 'MightySEO::Backlinks::SEOmoz' );
+can_ok( $seomoz , @SUBS );
 
-my $delicious = MightySEO::Backlinks::StumbleUpon->new;
-isa_ok( $delicious, 'MightySEO::Backlinks::StumbleUpon' );
-can_ok( $delicious, @SUBS );
+my $stumble = MightySEO::Backlinks::StumbleUpon->new;
+isa_ok( $stumble , 'MightySEO::Backlinks::StumbleUpon' );
+can_ok( $stumble , @SUBS );
 
 my $tweetmeme = MightySEO::Backlinks::TweetMeme->new;
 isa_ok( $tweetmeme, 'MightySEO::Backlinks::TweetMeme' );
